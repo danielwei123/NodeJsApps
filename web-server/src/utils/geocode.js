@@ -18,12 +18,4 @@ const geocode = (address, cb) => {
     })
 }
 
-geocode('Boston', (error, {latitude, longitude, location}) => {
-    if (error) {
-        return console.log(error)
-    }
-    console.log(latitude)
-})
-
-
 module.exports = geocode
