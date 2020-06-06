@@ -22,33 +22,22 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-<<<<<<< HEAD
         title:'Weather',
-=======
-        title:' Weather',
->>>>>>> 6dfbbdd79d5555670a1d718a3a2b8d5990833ee2
         name: 'Daniel Wei'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
-<<<<<<< HEAD
         title:'About me',
-=======
-        title:' About me',
->>>>>>> 6dfbbdd79d5555670a1d718a3a2b8d5990833ee2
         name: 'Daniel Wei'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-<<<<<<< HEAD
         title:'Help',
         name:'Daniel Wei',
-=======
->>>>>>> 6dfbbdd79d5555670a1d718a3a2b8d5990833ee2
         helpText:'This is some helpful text',
     })
 })
@@ -98,8 +87,4 @@ app.get('*', (req, res) => {
 
 app.listen(port, () => {
     console.log('Server is up on port 3000')
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 6dfbbdd79d5555670a1d718a3a2b8d5990833ee2
