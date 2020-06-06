@@ -5,6 +5,4 @@ The weather-app provides a simple interface and server for user to look up the w
 
 It is deployed on Heroku; you can play around with it via https://daniel-wei-weather-application.herokuapp.com/
 
-Tech stacks: 
-  Backend: Node.js (Express Framework)
-  Frontend: JavaScript, CSS
+Tech stacks: Node.js (Express Framework), JavaScript, CSS
