@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielwei123/NodeJsApps.git"
+  },
+  "author": "Daniel Wei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielwei123/NodeJsApps/issues"
+  },
+  "homepage": "https://github.com/danielwei123/NodeJsApps#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
